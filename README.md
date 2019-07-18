@@ -73,7 +73,7 @@ The oncopy event occurs when the user copies the content of an element.
 The onchange event occurs when the value of an element has been changed.
 For radiobuttons and checkboxes, the onchange event occurs when the checked state has been changed.
 
-This event is similar to the oninput event. The difference is that the oninput event occurs immediately after the value of an element has changed, while onchange occurs when the element loses focus, after the content has been changed. The other difference is that the onchange event also works on <select> elements.  
+This event is similar to the oninput event. The difference is that the oninput event occurs immediately after the value of an element has changed, while onchange occurs when the element loses focus, after the content has been changed. The other difference is that the onchange event also works on `<select>` elements.  
  
 ### ondrag  
 The ondrag event occurs when an element or text selection is being dragged.
