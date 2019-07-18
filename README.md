@@ -1,4 +1,6 @@
 # js-research-events
+ https://debackerx.github.io/js-research-events/.
+
 # JavaScript Events (Xandra, Ben D. & Caroline)
 
 Events are actions or occurrences that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired. 
@@ -204,10 +206,10 @@ A third method:
 The eventListener is add through JavaScript and the function is also written inside the separate JavaScript-file.
 Example part of the HTML:
 ```html
-<!--The button element that will be “listened” to for a ‘click’ event→
+<!--The button element that will be “listened” to for a ‘click’ event-->
 <button id="btn">Click me</button>
 
-<!--The targeted div element of which the EventHandler will change the innerHTML→
+<!--The targeted div element of which the EventHandler will change the innerHTML-->
 <div id="demo">This text will be replaced</div>
 ```
 Example JavaScript:
