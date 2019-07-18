@@ -9,8 +9,8 @@ For example, if the user clicks a button on a webpage, you might want to respond
 
 In the case of the Web, events are fired inside the browser window, and tend to be attached to a specific item that resides in it — this might be a single element, set of elements, the HTML document loaded in the current tab, or the entire browser window. There are a lot of different types of events that can occur, for example:
 
-  * The user clicking the mouse over a certain element or hovering the cursor over a certain element.  
-  * The user pressing a key on the keyboard.  
+  * The user clicking the mouse over a certain element or hovering the cursor over a certain element.  
+  * The user pressing a key on the keyboard.  
   * The user resizing or closing the browser window.  
   * A web page finishing loading.  
   * A form being submitted.  
@@ -54,6 +54,7 @@ The order of events related to the onkey… :
   1. onkeydown
   2. onkeypress
   3. onkeyup
+  
 #### onkeydown
 The onkeydown event occurs when the user is pressing a key (on the keyboard).
 
@@ -131,11 +132,12 @@ During the loading process of an audio/video, the following events occur, in thi
   5. onprogress  
   6. oncanplay  
   7. oncanplaythrough
+  
 ### keyCode
 The keyCode property returns the Unicode character code of the key that triggered the onkeypress event, or the Unicode key code of the key that triggered the onkeydown or onkeyup event.
 The difference between the two code types:
 * Character codes - A number which represents an ASCII character  
-* Key codes - A number which represents an actual key on the keyboard
+* Key codes - A number which represents an actual key on the keyboard  
 These types do not always mean the same thing; for example, a lower case "w" and an upper case "W" have the same keyboard code, because the key that is pressed on the keyboard is the same (just "W" = the number "87"), but a different character code because the resulting character is different (either "w" or "W", which is "119" or "87").
 **Tip:** To find out if the user is pressing a printable key (e.g. "a" or "5"), it is recommended to use this property on the onkeypress event. To find out if the user is pressing a function key (e.g. "F1", "CAPS LOCK" or "Home") use the onkeydown or onkeyup event.
 
