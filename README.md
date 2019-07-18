@@ -229,9 +229,9 @@ function myFunction() {
 ```
 
 # Sources:
-  * [Tutorialpoint](https://www.tutorialspoint.com/javascript/javascript_events)  
-  * [w3schools](https://www.w3schools.com/js/js_events.asp)  
-  * https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events  
+* [Tutorialpoint](https://www.tutorialspoint.com/javascript/javascript_events)  
+* [w3schools](https://www.w3schools.com/js/js_events.asp)  
+* https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events  
 
 
 
