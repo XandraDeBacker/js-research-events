@@ -9,13 +9,13 @@ For example, if the user clicks a button on a webpage, you might want to respond
 
 In the case of the Web, events are fired inside the browser window, and tend to be attached to a specific item that resides in it — this might be a single element, set of elements, the HTML document loaded in the current tab, or the entire browser window. There are a lot of different types of events that can occur, for example:
 
-  * The user clicking the mouse over a certain element or hovering the cursor over a certain element.  
-  * The user pressing a key on the keyboard.  
-  * The user resizing or closing the browser window.  
-  * A web page finishing loading.  
-  * A form being submitted.  
-  * A video being played, or paused, or finishing play.  
-  * An error occurring.
+* The user clicking the mouse over a certain element or hovering the cursor over a certain element.  
+* The user pressing a key on the keyboard.  
+* The user resizing or closing the browser window.  
+* A web page finishing loading.  
+* A form being submitted.  
+* A video being played, or paused, or finishing play.  
+* An error occurring.
 
 Each available event has an event handler, which is a block of code (usually a user-defined JavaScript function) that will be run when the event fires. When such a block of code is defined to be run in response to an event firing, we say we are registering an event handler. Note that event handlers are sometimes called event listeners — they are pretty much interchangeable for our purposes, although strictly speaking, they work together. The listener listens out for the event happening, and the handler is the code that is run in response to it happening.
 
