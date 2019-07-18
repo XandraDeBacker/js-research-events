@@ -203,7 +203,7 @@ document.getElementById("demo").innerHTML = Date(); 
 ```
 A third method:
 
-The eventListener is add through JavaScript and the function is also written inside the separate JavaScript-file.
+The eventListener is added through JavaScript and the function is also written inside the separate JavaScript-file.
 Example part of the HTML:
 ```html
 <!--The button element that will be “listened” to for a ‘click’ event-->
