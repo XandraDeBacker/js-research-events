@@ -50,10 +50,10 @@ The ondblclick event occurs when the user double-clicks on an element.
 ### onkeydown/onkeypress/onkeyup
 **!** Note that it doesn't work if you try to register this event handler on the button itself.
 
-The order of events related to the onkey… :
-  1. onkeydown
-  2. onkeypress
-  3. onkeyup
+The order of events related to the onkey… :  
+1. onkeydown  
+2. onkeypress  
+3. onkeyup
   
 #### onkeydown
 The onkeydown event occurs when the user is pressing a key (on the keyboard).
@@ -73,26 +73,25 @@ The oncopy event occurs when the user copies the content of an element.
 The onchange event occurs when the value of an element has been changed.
 For radiobuttons and checkboxes, the onchange event occurs when the checked state has been changed.
 
-This event is similar to the oninput event. The difference is that the oninput event occurs immediately after the value of an element has changed, while onchange occurs when the element loses focus, after the content has been changed. The other difference is that the onchange event also works on <select> elements.
-
-### ondrag 
+This event is similar to the oninput event. The difference is that the oninput event occurs immediately after the value of an element has changed, while onchange occurs when the element loses focus, after the content has been changed. The other difference is that the onchange event also works on <select> elements.  
+ 
+### ondrag  
 The ondrag event occurs when an element or text selection is being dragged.
 
-### onsubmit
+### onsubmit  
 The onsubmit event occurs when a form is submitted.
 
-### onmouse... events
+### onmouse... events  
 The order of events related to the onmouse... events (for the left/middle mouse button):
 
-  1. onmousedown  
-  2. onmouseup  
-  3. onclick
+1. onmousedown  
+2. onmouseup  
+3. onclick
 
-The order of events related to the onmouse... events (for the right mouse button):
-
-  1. onmousedown  
-  2. onmouseup  
-  3. oncontextmenu
+The order of events related to the onmouse... events (for the right mouse button):  
+1. onmousedown  
+2. onmouseup  
+3. oncontextmenu
 
 #### onmousedown
 The onmousedown event occurs when a user presses a mouse button over an element.
@@ -124,14 +123,14 @@ The onload event can also be used to deal with cookies.
 
 ### onloadeddata
 The onloadeddata event occurs when data for the current frame is loaded, but not enough data to play next frame of the specified audio/video.
-During the loading process of an audio/video, the following events occur, in this order:
-  1. onloadstart  
-  2. ondurationchange  
-  3. onloadedmetadata  
-  4. onloadeddata  
-  5. onprogress  
-  6. oncanplay  
-  7. oncanplaythrough
+During the loading process of an audio/video, the following events occur, in this order:  
+1. onloadstart  
+2. ondurationchange  
+3. onloadedmetadata  
+4. onloadeddata  
+5. onprogress  
+6. oncanplay  
+7. oncanplaythrough
   
 ### keyCode
 The keyCode property returns the Unicode character code of the key that triggered the onkeypress event, or the Unicode key code of the key that triggered the onkeydown or onkeyup event.
